@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kriovant — Digital Agency</title>
+  <meta name="description" content="Kriovant is a premium digital agency crafting extraordinary web experiences, brands, and digital products that move the world forward." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- Noise Overlay -->
+  <div class="noise"></div>
+
+  <!-- ==================== NAVBAR ==================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">
+      <span class="logo-text">KRIOVANT</span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#work" class="nav-link">Work</a></li>
+      <li><a href="#services" class="nav-link">Services</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta" id="navCta">Let's Talk</a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ==================== HERO ==================== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge" id="heroBadge">
+        <span class="badge-dot"></span>
+        <span>Available for projects</span>
+      </div>
+      <h1 class="hero-title" id="heroTitle">
+        <span class="line">We Build</span>
+        <span class="line italic">Digital Worlds</span>
+        <span class="line">That Inspire.</span>
+      </h1>
+      <p class="hero-subtitle" id="heroSubtitle">
+        Premium web experiences, bold brand identities, and scalable digital products — crafted to leave a lasting impression.
+      </p>
+      <div class="hero-actions" id="heroActions">
+        <a href="#contact" class="btn btn-ghost">Start a Project</a>
+      </div>
+      <div class="hero-stats" id="heroStats">
+        <div class="stat">
+          <div class="stat-value"><span class="stat-num" data-count="120">0</span><span class="stat-plus">+</span></div>
+          <span class="stat-label">Projects Delivered</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <div class="stat-value"><span class="stat-num" data-count="3">0</span><span class="stat-plus">+</span></div>
+          <span class="stat-label">Years Experience</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <div class="stat-value"><span class="stat-num" data-count="98">0</span><span class="stat-plus">%</span></div>
+          <span class="stat-label">Client Satisfaction</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator" id="scrollIndicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ==================== MARQUEE ==================== -->
+  <div class="marquee-section">
+    <div class="marquee-track" id="marqueeTrack">
+      <div class="marquee-inner">
+        <span>Web Design</span><span class="dot">✦</span>
+        <span>Brand Identity</span><span class="dot">✦</span>
+        <span>UI/UX Design</span><span class="dot">✦</span>
+        <span>Web Development</span><span class="dot">✦</span>
+        <span>Motion Design</span><span class="dot">✦</span>
+        <span>E-Commerce</span><span class="dot">✦</span>
+        <span>SEO Strategy</span><span class="dot">✦</span>
+        <span>Mobile Apps</span><span class="dot">✦</span>
+        <span>Web Design</span><span class="dot">✦</span>
+        <span>Brand Identity</span><span class="dot">✦</span>
+        <span>UI/UX Design</span><span class="dot">✦</span>
+        <span>Web Development</span><span class="dot">✦</span>
+        <span>Motion Design</span><span class="dot">✦</span>
+        <span>E-Commerce</span><span class="dot">✦</span>
+        <span>SEO Strategy</span><span class="dot">✦</span>
+        <span>Mobile Apps</span><span class="dot">✦</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== WORK ==================== -->
+  <section class="work" id="work">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Work</span>
+        <h2 class="section-title reveal-text">Selected <span class="italic">Projects</span></h2>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card project-large" data-project="01">
+          <div class="project-image">
+            <img class="project-cover" src="assets/project1.jpg" style="object-position: center;" alt="VIRAAT">
+            <div class="project-bg" style="background: linear-gradient(135deg, #4b134f, #c94b4b);"></div>
+          </div>
+          <div class="project-info">
+            <span class="project-num">01</span>
+            <div class="project-meta">
+              <h3 class="project-name">VIRAAT</h3>
+              <p class="project-desc">Luxury Indian Ethnic Fashion, Bridal Lehengas & Silk Sarees.</p>
+              <div class="project-tags">
+                <span>Ethnicwear</span>
+                <span>Bridal</span>
+              </div>
+            </div>
+            <a href="https://viraat.vercel.app/" class="project-link open-modal" aria-label="View project">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card" data-project="02">
+          <div class="project-image">
+            <img class="project-cover" src="assets/project2.jpg" style="object-position: center 20%;" alt="VedhaTrendz">
+            <div class="project-bg" style="background: linear-gradient(135deg, #8B0000, #4a0000);"></div>
+          </div>
+          <div class="project-info">
+            <span class="project-num">02</span>
+            <div class="project-meta">
+              <h3 class="project-name">VedhaTrendz</h3>
+              <p class="project-desc">Exquisite Traditional Sarees. Premium quality & authentic designs.</p>
+              <div class="project-tags">
+                <span>Traditional Wear</span>
+                <span>E-Commerce</span>
+              </div>
+            </div>
+            <a href="https://www.vedhatrendz.com/" class="project-link open-modal" aria-label="View project">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card" data-project="03">
+          <div class="project-image">
+            <img class="project-cover" src="https://images.unsplash.com/photo-1610701596007-11502861dcfa?q=80&w=1200&auto=format&fit=crop" alt="Peshal Handicraft">
+            <div class="project-bg" style="background: linear-gradient(135deg, #d38312, #a83279);"></div>
+          </div>
+          <div class="project-info">
+            <span class="project-num">03</span>
+            <div class="project-meta">
+              <h3 class="project-name">Peshal Handicraft</h3>
+              <p class="project-desc">Premium handcrafted collections and unique artisanal products.</p>
+              <div class="project-tags">
+                <span>Handicraft</span>
+                <span>Store</span>
+              </div>
+            </div>
+            <a href="https://peshal-handicraft.vercel.app/" class="project-link open-modal" aria-label="View project">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card project-large project-large-right" data-project="04">
+          <div class="project-image">
+            <img class="project-cover" src="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1200&auto=format&fit=crop" alt="Vastraa">
+            <div class="project-bg" style="background: linear-gradient(135deg, #e6d0ce, #b88682);"></div>
+          </div>
+          <div class="project-info">
+            <span class="project-num">04</span>
+            <div class="project-meta">
+              <h3 class="project-name">Vastraa</h3>
+              <p class="project-desc">Custom Bridal & Designer Wear — bespoke elegance exclusively for you in Mumbai.</p>
+              <div class="project-tags">
+                <span>Boutique</span>
+                <span>Bridal</span>
+              </div>
+            </div>
+            <a href="https://vastraa-kriovant.vercel.app/" class="project-link open-modal" aria-label="View project">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card project-large" data-project="05">
+          <div class="project-image">
+            <img class="project-cover" src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?q=80&w=1200&auto=format&fit=crop" alt="Orderly">
+            <div class="project-bg" style="background: linear-gradient(135deg, #11998e, #38ef7d);"></div>
+          </div>
+          <div class="project-info">
+            <span class="project-num">05</span>
+            <div class="project-meta">
+              <h3 class="project-name">Orderly</h3>
+              <p class="project-desc">Smart picks. Honest prices. Fast delivery without the clutter.</p>
+              <div class="project-tags">
+                <span>Retail</span>
+                <span>Web App</span>
+              </div>
+            </div>
+            <a href="https://orderly-kriovant.vercel.app/" class="project-link open-modal" aria-label="View project">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SERVICES ==================== -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What We Do</span>
+        <h2 class="section-title reveal-text">Our <span class="italic">Expertise</span></h2>
+      </div>
+      <div class="services-layout">
+        <div class="services-list">
+          <div class="service-item" id="s1">
+            <div class="service-icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="4" y="8" width="40" height="28" rx="3" stroke="currentColor" stroke-width="2.5"/>
+                <path d="M16 36l-4 6h24l-4-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <path d="M14 20l6 6 14-12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="service-content">
+              <h3>Web Design & Development</h3>
+              <p>Pixel-perfect, performance-first websites built with modern tech stacks. From landing pages to complex web apps.</p>
+            </div>
+            <span class="service-arrow">→</span>
+          </div>
+
+          <div class="service-item" id="s2">
+            <div class="service-icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="2.5"/>
+                <path d="M24 12v12l8 8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <path d="M12 24h4M32 24h4M24 12v-4M24 36v4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="service-content">
+              <h3>Brand Identity</h3>
+              <p>Strategic brand systems that tell your story — logos, color palettes, typography, and comprehensive brand guidelines.</p>
+            </div>
+            <span class="service-arrow">→</span>
+          </div>
+
+          <div class="service-item" id="s3">
+            <div class="service-icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="8" y="8" width="14" height="14" rx="2" stroke="currentColor" stroke-width="2.5"/>
+                <rect x="26" y="8" width="14" height="14" rx="2" stroke="currentColor" stroke-width="2.5"/>
+                <rect x="8" y="26" width="14" height="14" rx="2" stroke="currentColor" stroke-width="2.5"/>
+                <rect x="26" y="26" width="14" height="14" rx="2" stroke="currentColor" stroke-width="2.5"/>
+              </svg>
+            </div>
+            <div class="service-content">
+              <h3>UI/UX Design</h3>
+              <p>User-centric design research, wireframing, prototyping, and usability testing — creating intuitive digital journeys.</p>
+            </div>
+            <span class="service-arrow">→</span>
+          </div>
+
+          <div class="service-item" id="s4">
+            <div class="service-icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 36L20 20l8 10 6-8 6 14" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="38" cy="12" r="4" stroke="currentColor" stroke-width="2.5"/>
+                <path d="M4 44h40" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="service-content">
+              <h3>Digital Marketing & SEO</h3>
+              <p>Data-driven campaigns that grow your reach and revenue — SEO, content strategy, and conversion rate optimization.</p>
+            </div>
+            <span class="service-arrow">→</span>
+          </div>
+
+          <div class="service-item" id="s5">
+            <div class="service-icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="14" y="4" width="20" height="34" rx="3" stroke="currentColor" stroke-width="2.5"/>
+                <circle cx="24" cy="34" r="2" stroke="currentColor" stroke-width="2"/>
+                <path d="M19 44h10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <path d="M24 38v6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="service-content">
+              <h3>Mobile App Development</h3>
+              <p>Native and cross-platform mobile experiences — iOS, Android, and React Native apps with seamless UX.</p>
+            </div>
+            <span class="service-arrow">→</span>
+          </div>
+        </div>
+
+        <div class="services-visual">
+          <div class="service-visual-card" id="serviceVisualCard">
+            <div class="svc-card-inner">
+              <div class="svc-icon-lg">
+                <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M32 8L56 24v16L32 56 8 40V24L32 8z" stroke="url(#grad1)" stroke-width="2" fill="none"/>
+                  <path d="M32 8v48M8 24l24 16 24-16" stroke="url(#grad1)" stroke-width="1.5" opacity="0.5"/>
+                  <circle cx="32" cy="32" r="8" stroke="url(#grad1)" stroke-width="2"/>
+                  <defs>
+                    <linearGradient id="grad1" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#a855f7"/>
+                      <stop offset="1" stop-color="#3b82f6"/>
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+              <h4>Full-Stack Digital Partner</h4>
+              <p>From concept to launch — we handle strategy, design, and development under one roof.</p>
+              <div class="svc-tags">
+                <span>Strategy</span>
+                <span>Design</span>
+                <span>Engineering</span>
+                <span>Growth</span>
+              </div>
+            </div>
+            <div class="svc-card-glow"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PROCESS ==================== -->
+  <section class="process" id="process">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">How We Work</span>
+        <h2 class="section-title reveal-text">Our <span class="italic">Process</span></h2>
+      </div>
+      <div class="process-steps">
+        <div class="process-step">
+          <div class="step-number">01</div>
+          <div class="step-icon">
+            <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 4L4 10v12l12 6 12-6V10L16 4z"/></svg>
+          </div>
+          <h3>Discover</h3>
+          <p>We dive deep into your goals, audience, and competitive landscape to build a bulletproof strategy.</p>
+        </div>
+        <div class="process-connector"><div class="connector-line"></div></div>
+        <div class="process-step">
+          <div class="step-number">02</div>
+          <div class="step-icon">
+            <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="24" height="24" rx="2"/><path d="M9 12h14M9 16h10M9 20h6"/></svg>
+          </div>
+          <h3>Design</h3>
+          <p>Wireframes evolve into stunning visuals that balance aesthetics with conversion-focused UX principles.</p>
+        </div>
+        <div class="process-connector"><div class="connector-line"></div></div>
+        <div class="process-step">
+          <div class="step-number">03</div>
+          <div class="step-icon">
+            <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 8l-6 8 6 8M22 8l6 8-6 8M18 6l-4 20"/></svg>
+          </div>
+          <h3>Develop</h3>
+          <p>Clean, scalable code with blazing performance. Built to last and grow with your business.</p>
+        </div>
+        <div class="process-connector"><div class="connector-line"></div></div>
+        <div class="process-step">
+          <div class="step-number">04</div>
+          <div class="step-icon">
+            <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 16l8 8L28 8"/></svg>
+          </div>
+          <h3>Launch</h3>
+          <p>Thorough QA, optimization, and a smooth deployment — then ongoing support to keep you at peak performance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== TESTIMONIALS ==================== -->
+  <section class="testimonials" id="testimonials" style="position: relative; overflow: hidden;">
+    <div class="testi-bg" style="position: absolute; top:0; left:0; width:100%; height:100%; z-index:-1;">
+      <div class="orb" style="width: 500px; height: 500px; background: var(--accent-color); top: -200px; right: -200px; opacity: 0.15;"></div>
+      <div class="orb" style="width: 400px; height: 400px; background: var(--accent-secondary); bottom: -150px; left: -150px; opacity: 0.15;"></div>
+    </div>
+    <div class="container" style="position: relative; z-index: 1;">
+      <div class="section-header">
+        <span class="section-tag">Client Love</span>
+        <h2 class="section-title reveal-text">What They <span class="italic">Say</span></h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testi-quote">"</div>
+          <p class="testi-text">Kriovant completely transformed our online presence. The new site increased our leads by 340% in the first quarter alone. Working with them was effortless.</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background: linear-gradient(135deg, #a855f7, #3b82f6);">AD</div>
+            <div>
+              <strong>Aarohi Desai</strong>
+              <span>CEO, Luminary Finance</span>
+            </div>
+          </div>
+          <div class="testi-stars">★★★★★</div>
+        </div>
+        <div class="testimonial-card featured-testi">
+          <div class="testi-quote">"</div>
+          <p class="testi-text">The team at Kriovant have a rare ability to take a vague vision and turn it into something extraordinary. Our brand identity is exactly what we dreamed of and more.</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background: linear-gradient(135deg, #f59e0b, #ef4444);">RS</div>
+            <div>
+              <strong>Rahul Sharma</strong>
+              <span>Founder, Velvet App</span>
+            </div>
+          </div>
+          <div class="testi-stars">★★★★★</div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testi-quote">"</div>
+          <p class="testi-text">Delivered on time, on budget, and beyond expectations. Our SaaS dashboard is now a core part of our product's value prop. Incredible work from an incredible team.</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background: linear-gradient(135deg, #10b981, #0ea5e9);">PP</div>
+            <div>
+              <strong>Priya Patel</strong>
+              <span>CTO, Orbit Analytics</span>
+            </div>
+          </div>
+          <div class="testi-stars">★★★★★</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT ==================== -->
+  <section class="about" id="about">
+    <div class="container about-grid">
+      <div class="about-content">
+        <span class="section-tag">About Us</span>
+        <h2 class="section-title reveal-text">A Studio That <span class="italic">Cares</span></h2>
+        <p class="about-text">We're a team of designers, developers, and strategists who are obsessed with crafting digital experiences that matter. Founded in 2016, Kriovant has grown into a trusted partner for startups, scale-ups, and enterprise brands worldwide.</p>
+        <p class="about-text">We believe great work comes from genuine collaboration. That's why we embed ourselves in your team, understand your vision deeply, and push the boundaries of what's possible together.</p>
+        <div class="about-qualities">
+          <div class="quality-item">
+            <div class="quality-dot"></div>
+            <span>Pixel-perfect execution</span>
+          </div>
+          <div class="quality-item">
+            <div class="quality-dot"></div>
+            <span>Agile, transparent workflow</span>
+          </div>
+          <div class="quality-item">
+            <div class="quality-dot"></div>
+            <span>Long-term partnerships</span>
+          </div>
+          <div class="quality-item">
+            <div class="quality-dot"></div>
+            <span>Results-driven mindset</span>
+          </div>
+        </div>
+        <a href="#contact" class="btn btn-primary mt-4">Work With Us</a>
+      </div>
+      <div class="about-visual">
+        <div class="about-card-main">
+          <div class="about-team-grid">
+            <div class="team-member">
+              <div class="member-avatar" style="background-image: url('https://api.dicebear.com/9.x/micah/svg?seed=Dev&backgroundColor=a855f7'); background-size: cover; background-position: center; border: 4px solid var(--accent-color);">
+              </div>
+              <strong>Dev</strong>
+              <span>Founder & Lead Developer</span>
+            </div>
+            <div class="team-member">
+              <div class="member-avatar" style="background-image: url('https://api.dicebear.com/9.x/micah/svg?seed=Charan&backgroundColor=f59e0b'); background-size: cover; background-position: center; border: 4px solid var(--accent-secondary);">
+              </div>
+              <strong>Charan</strong>
+              <span>Co-Founder & Designer</span>
+            </div>
+            <div class="team-member">
+              <div class="member-avatar" style="background-image: url('https://api.dicebear.com/9.x/micah/svg?seed=Tanuja&backgroundColor=10b981'); background-size: cover; background-position: center; border: 4px solid #10b981;">
+              </div>
+              <strong>Tanuja</strong>
+              <span>Marketing Executive</span>
+            </div>
+            <div class="team-member">
+              <div class="member-avatar" style="background-image: url('https://api.dicebear.com/9.x/micah/svg?seed=Ram&backgroundColor=6366f1'); background-size: cover; background-position: center; border: 4px solid #6366f1;">
+              </div>
+              <strong>Ram</strong>
+              <span>Human Resources</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ==================== CTA / CONTACT ==================== -->
+  <section class="cta-section" id="contact">
+    <div class="cta-bg">
+      <div class="cta-orb cta-orb-1"></div>
+      <div class="cta-orb cta-orb-2"></div>
+    </div>
+    <div class="container cta-content">
+      <span class="section-tag">Get in Touch</span>
+      <h2 class="cta-title reveal-text">Ready to Build <br/><span class="italic">Something Remarkable?</span></h2>
+      <p class="cta-sub">Tell us about your project and we'll get back to you within 24 hours.</p>
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <div class="form-group">
+            <input type="text" id="nameInput" placeholder="Your Name" required autocomplete="off" />
+            <label for="nameInput">Your Name</label>
+          </div>
+          <div class="form-group">
+            <input type="email" id="emailInput" placeholder="Your Email" required autocomplete="off" />
+            <label for="emailInput">Your Email</label>
+          </div>
+        </div>
+        <div class="form-group full">
+          <input type="text" id="subjectInput" placeholder="Project Type" autocomplete="off" />
+          <label for="subjectInput">Project Type</label>
+        </div>
+        <div class="form-group full">
+          <textarea id="messageInput" placeholder="Tell us about your project..." rows="5" required></textarea>
+          <label for="messageInput">Your Message</label>
+        </div>
+        <button type="submit" class="btn btn-primary btn-submit" id="submitBtn">
+          <span>Send Message</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="logo-text">KRIOVANT</span>
+          <p>We build digital worlds that inspire.</p>
+          <div class="footer-socials">
+            <a href="#" aria-label="Twitter" class="social-link">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.261 5.632zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="#" aria-label="Instagram" class="social-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="#" aria-label="LinkedIn" class="social-link">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="#" aria-label="Dribbble" class="social-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-links-group">
+          <h4>Navigation</h4>
+          <a href="#work">Work</a>
+          <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-links-group">
+          <h4>Services</h4>
+          <a href="#">Web Design</a>
+          <a href="#">Development</a>
+          <a href="#">Branding</a>
+          <a href="#">Mobile Apps</a>
+        </div>
+        <div class="footer-links-group">
+          <h4>Get In Touch</h4>
+          <a href="mailto:hello@kriovant.com">hello@kriovant.com</a>
+          <a href="tel:+1234567890">+1 (234) 567-890</a>
+          <span>San Francisco, CA</span>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2024 Kriovant. All rights reserved.</span>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== IFRAME MODAL ==================== -->
+  <div class="project-modal" id="projectModal">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose" aria-label="Close Modal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+      <div class="modal-loader" id="modalLoader">Loading Project...</div>
+      <iframe src="" class="modal-iframe" id="modalIframe" title="Project Preview"></iframe>
+    </div>
+  </div>
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/TextPlugin.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
